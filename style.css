@@ -1,0 +1,476 @@
+/*
+
+Author: Alice Ko
+Author URI: http://about.me/aliceko
+Version: 1.0
+Description: This stylesheet is for Alice Ko Design
+
+*/
+
+
+/* =Reset
+-------------------------------------------------------------- */
+
+a {
+	text-decoration: none;
+	color: #10D2BD;	
+	-webkit-transition: color 0.3s; /* Safari */
+	transition: color 0.3s;
+}
+
+a:active {
+	opacity: .5;	
+}
+
+
+ol, ul {
+	list-style: none;
+	}
+	
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2, h3, h4 {
+	font-weight: bold;
+	letter-spacing: 1px;  
+}
+
+/* =Basic Structure
+-------------------------------------------------------------- */
+
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: .8em; 
+}
+
+#container {
+	margin: 0 auto;
+}
+
+#header {
+	margin-bottom: 10%; 
+}
+
+#main {
+	margin-top: 2%; 
+	margin-bottom: 2%;
+}
+
+#footer {
+	padding-top: 9%;
+	padding-bottom: 4%;
+}
+
+/* =Header
+-------------------------------------------------------------- */
+
+/*Logo*/
+
+#header h1 {
+	font-size: 1.3em; 
+	letter-spacing: 2px;
+}
+
+#header a h1 {
+	color: #fff;
+}
+.mobile_logo {
+	background-color: #000;
+	text-align: center;
+    padding: 2em 0;
+}
+
+
+.logo {
+	display: none; 
+}
+
+/*Top Menu*/
+
+.top-menu {
+	padding: 2% 0;
+}
+
+.top-menu ul {}
+ 
+.top-menu li {
+	width: 32%;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.top-menu li a {
+	padding: 4% 0;
+    display: block;
+}
+
+#header ul li a {
+	color: #000;
+	letter-spacing: 1px;
+}
+
+#header ul li a:hover {
+	color: #10D2BD; 
+}
+
+/* =Content
+-------------------------------------------------------------- */
+
+#content h2 {
+	margin-top: 1%;
+
+}
+
+h2.entry-title {
+	font-size: 1.3em;
+	margin-bottom: 5%;
+}
+
+#content h3 {
+	margin-bottom: 5%;
+ }
+
+#content p {
+	margin-bottom: 2%;
+	font-size: .9em;
+	line-height: 16px; 
+}
+
+#content.front-page a:hover {
+	text-decoration: none; 
+}
+
+#content a:hover {
+	text-decoration: underline;
+}
+
+.photo {
+	margin-bottom: 5%;	
+}
+
+.project {
+	padding: 0 0 5%;
+}
+
+.project a img {
+	-webkit-transition: opacity 1s; /* For Safari */
+	transition: opacity 1s;
+}
+
+.project a:hover img {
+	opacity: .7;
+}
+
+.project a:active img {
+	opacity: 0; 
+}
+
+.project a h2 {
+	color: #000;
+	-webkit-transition: color .3s;
+	transition: color .3s;
+}
+
+.project a:hover h2 {
+	color: #10D2BD;
+	text-decoration: none;
+}
+
+.project a:active h2 {
+	color: #fff;
+}
+
+.about h2.entry-title {
+	margin-bottom: 1%;
+}
+
+.about h4 {
+	font-size: .9em;
+    margin-bottom: 8px;
+}
+
+.about ul {
+	margin-bottom: 3%;
+	padding-left: 10px;
+	list-style: square inside;
+	font-size: .9em; 
+	line-height: 18px;
+}
+
+.headshot {
+	margin-bottom: 2%;
+}
+
+/* =Navigation
+-------------------------------------------------------------- */
+
+#navigation p {
+	margin-top: 9%;
+	text-align: center;
+	font-size: .9em;
+	letter-spacing: 1px;
+}
+
+#navigation a {
+	color: #757575;
+}
+
+#navigation a:hover {
+	color: #10D2BD; 
+}
+
+/* =Footer
+-------------------------------------------------------------- */
+
+#footer_container {
+	border-top: 1px solid #bbb;
+	padding-top: 2%;
+	font-size: .8em;
+}
+
+.copyright {
+	letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.back-top {
+	display: none;
+}
+
+
+
+/* = Contact Form
+-------------------------------------------------------------- */
+
+form input, 
+textarea {
+	width: 100%;
+	height: 25px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    color: #777;
+    font-size: 1.1em;
+	padding: 0; 
+
+}
+
+form input:focus, 
+textarea:focus {
+	border: 1px solid #10D2BD;
+	outline: none;
+}
+
+textarea {
+	height: 200px;
+}
+
+label {
+	letter-spacing: 1px; 
+}
+
+.send-button {
+	width: 100%;
+	height: auto;
+    padding: 10px;
+    margin: 2% 0;
+	border: none;
+	background: #000;
+	color: #fff;
+	text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1em;
+    -webkit-transition: background 0.5s; /* Safari */
+    transition: background 0.5s;
+}
+
+.send-button:hover {
+	background: #10D2BD;
+}
+
+.send-button:active {
+	background: #000;
+}
+
+/* =Media Queries (optimized for iPhone 5, 6, and iPad)
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 667px) {
+
+	#main {
+		margin: 0 5%;
+		padding-bottom: 3%;
+	}
+	
+	#footer {
+		margin: 0 5% 4%;
+	}
+
+}
+
+@media screen and (min-width: 568px) {
+	
+	#header {
+		margin-bottom: 5%;
+	}
+	
+	.project {
+		padding: 0 0 3%;
+	}
+	
+	form input, textarea {
+		width: 70%;
+	}
+	
+	.send-button {
+		margin: 0; 
+		width: 70%;
+	}
+	
+	.headshot {
+		float: right;
+	}
+}
+
+
+/* Fluid Grid Activates Here */
+
+@media screen and (min-width: 668px) {
+
+	
+	.mobile_logo {
+		display: none; 
+	}
+	
+	.logo {
+		padding: 8% 0 3%;
+		display: block; 
+		background-color: #000;
+    	text-align: center;
+    	-webkit-transition: background-color 0.5s; /* Safari */
+    	transition: background-color 0.5s;
+	}	
+	
+	#header h1 {
+		font-size: 1.1em; 
+	}
+	
+	#header a:hover .logo {
+		background-color: #10D2BD;
+	}
+	
+	.top-menu {
+		text-align: right;
+		padding-top: 13%;
+		}
+			
+	.top-menu li {
+		width: initial;
+		padding: 0 0 0 5%;
+	}
+
+	.top-menu li a {
+		padding: 0; 
+		font-size: .9em; 
+	}
+
+	.project {
+		height: 240px; 
+	}
+	
+	#navigation p {
+	text-align: left;
+	margin-top: 20%;
+	}
+	
+	.copyright {
+		display: inline-block;
+	}
+	
+	.back-top {
+		display: inline-block;
+		width: 20%;
+    	float: right;
+    	text-align: right;
+    	letter-spacing: 1px;
+	} 
+	
+	.back-top a {
+		color: #000;
+		text-transform: uppercase;
+		font-weight: bold;	
+	}
+	
+	.back-top a:hover {
+		color: #10D2BD;
+	}
+	
+	.send-button {
+		width: 20%; 
+	}
+	
+
+	
+	
+
+}
+
+
+@media screen and (min-width: 767px) {
+
+
+	#header h1 {
+		font-size: 1.2em; 
+	}
+	
+	.logo {
+		padding: 8% 0 2%;
+	}
+
+	.top-menu {
+		padding-top: 12%;
+	}
+
+	.project {
+		height: 280px; 
+	}
+}
+
+@media screen and (min-width: 900px) {
+
+
+	#header h1 {
+		font-size: 1.3em; 
+	}
+	
+	.logo {
+		padding: 7% 0 2%;
+	}
+
+	.project {
+		height: 310px; 
+	}
+}
+
+
