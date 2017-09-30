@@ -235,8 +235,8 @@ h2.entry-title {
 
 .headshot {
 	margin-bottom: 2%;
-	width: 175px;
-	height: 175px; 
+	width: 176px;
+	height: auto; 
 }
 
 /* =Navigation
@@ -280,6 +280,8 @@ h2.entry-title {
 
 /* = Contact Form
 -------------------------------------------------------------- */
+
+#contact-form {padding-bottom: 30px;}
 
 form input, 
 textarea {
@@ -369,6 +371,7 @@ label {
 	
 	.headshot {
 		float: right;
+		margin-left: 2%;
 	}
 }
 
@@ -464,7 +467,7 @@ label {
 	
 	.headshot {
 		width: 200px;
-		height: 200px; 
+		height: auto; 
 	}
 }
 

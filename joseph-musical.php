@@ -23,7 +23,7 @@
 			</div> <!-- #content -->
 			
 			<div id="navigation" class="grid_3 pull_9">
-				<p><a href="2014calendar.php" title="view previous project">&leftarrow; Previous</a> / <a href="laxtoyvr.php" title="view next project">Next &rightarrow;</a></p>
+				<p><a href="2014calendar.php" title="view previous project">&leftarrow; Previous</a> / <a href="calmkids.php" title="view next project">Next &rightarrow;</a></p>
 			</div>
 			
 		</div> <!-- #main -->

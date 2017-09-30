@@ -6,8 +6,8 @@
 			<div id="content" class="grid_9 push_3">
 					<h2 class="entry-title">CD Package: Awaken Love</h2>
 					
-					<p>CD packaging for <i>Awaken Love</i> album by David Taylor.  </p>	
-					<img src="images/awaken_love_1.jpg" alt="Awaken Love CD packaging" class="photo" />
+					<p>CD packaging for <a href="http://www.awakenlove.ca/home.html" target="_blank"><i>Awaken Love</i></a> album by David Taylor.  </p>	
+					<img src="images/awaken_love_3.jpg" alt="Awaken Love CD packaging" class="photo" />
 					
 					
 					<p>Front and back cover for CD booklet.</p>	
@@ -18,7 +18,7 @@
 			</div> <!-- #content -->
 			
 			<div id="navigation" class="grid_3 pull_9">
-				<p><a href="iel.php" title="view previous project">&leftarrow; Previous</a> / <a href="oliver-musical.php" title="view next project">Next &rightarrow;</a></p>
+				<p><a href="print-publication.php" title="view previous project">&leftarrow; Previous</a> / <a href="posters.php" title="view next project">Next &rightarrow;</a></p>
 			</div>
 			
 		</div> <!-- #main -->

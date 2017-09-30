@@ -19,13 +19,13 @@
 					<img src="images/joseph_1.jpg" alt="poster for Joseph and the Amazing Techniolor Dreamcoat" class="photo" />
 					
 					<p>Program booklet for the production.</p>	
-					<img src="images/joseph_4.jpg" alt="Joseph and the Amazing Techniolor Dreamcoat program book" class="photo" />
+					<img src="images/joseph_4.jpg" alt="Joseph and the Amazing Technicolor Dreamcoat program book" class="photo" />
 			
 							
 			</div> <!-- #content -->
 			
 			<div id="navigation" class="grid_3 pull_9">
-				<p><a href="awaken-love.php" title="view previous project">&leftarrow; Previous</a> / <a href="social-media.php" title="view next project">Next &rightarrow;</a></p>
+				<p><a href="awaken-love.php" title="view previous project">&leftarrow; Previous</a> / <a href="smk.php" title="view next project">Next &rightarrow;</a></p>
 			</div>
 			
 		</div> <!-- #main -->

@@ -25,7 +25,7 @@
 			</div> <!-- #content -->
 			
 			<div id="navigation" class="grid_3 pull_9">
-				<p><a href="full-circle.php" title="view previous project">&leftarrow; Previous</a> / <a href="joseph-musical.php" title="view next project">Next &rightarrow;</a></p>
+				<p><a href="laxtoyvr.php" title="view previous project">&leftarrow; Previous</a> / <a href="joseph-musical.php" title="view next project">Next &rightarrow;</a></p>
 			</div>
 			
 		</div> <!-- #main -->

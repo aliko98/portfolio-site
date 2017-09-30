@@ -11,11 +11,13 @@
 					
 					<img src="images/smk_2.jpg" alt="St. Mary's Kerrisdale website" class="photo" />
 					
+					<img src="images/smk_3.jpg" alt="St. Mary's Kerrisdale website" class="photo" />
+					
 							
 			</div> <!-- #content -->
 			
 			<div id="navigation" class="grid_3 pull_9">
-				<p><a href="selfish-giant.php" title="view previous project">&leftarrow; Previous</a> / <a href="naturally-perfect.php" title="view next project">Next &rightarrow;</a></p>
+				<p><a href="posters.php" title="view previous project">&leftarrow; Previous</a> / <a href="calmkids.php" title="view next project">Next &rightarrow;</a></p>
 			</div>
 			
 		</div> <!-- #main -->

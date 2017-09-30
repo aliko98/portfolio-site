@@ -157,7 +157,8 @@ $errors = $form->getErrors();
 							
 						</form>
 						</div> <!-- #contact-form -->
-						
+					<p><a href="http://twitter.com/intent/user?screen_name=laxtoyvr" target="_blank" title="Go to Alice's Twitter page">Follow @laxtoyvr</a></p>	
+					<p><a href="https://ca.linkedin.com/in/aliko98" target="_blank" title="Check out Alice's LinkedIn profile">Connect on LinkedIn</a></p>
 			</div> <!-- #content -->
 			
 			
